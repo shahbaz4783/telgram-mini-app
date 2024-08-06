@@ -20,6 +20,8 @@ const User = () => {
 			setUserData(WebApp.initDataUnsafe.user as UserData);
 		}
 	}, []);
+
+
 	return (
 		<>
 			{userData ? (
