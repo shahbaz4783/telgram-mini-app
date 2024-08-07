@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react';
 import WebApp from '@twa-dev/sdk';
 
-// Define the interface for user data
 interface UserData {
 	id: number;
 	first_name: string;
@@ -20,7 +19,6 @@ const User = () => {
 			setUserData(WebApp.initDataUnsafe.user as UserData);
 		}
 	}, []);
-
 
 	return (
 		<>

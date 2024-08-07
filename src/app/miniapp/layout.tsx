@@ -1,12 +1,14 @@
 import GridPattern from '@/src/components/magicui/grid-pattern';
+import Header from '@/src/components/shared/header';
 import Navigation from '@/src/components/shared/navigation';
 import { cn } from '@/src/lib/utils';
 import React from 'react';
 
 const layout = ({ children }: { children: React.ReactNode }) => {
 	return (
-		<div className='min-h-svh justify-start flex items-start flex-col max-w-[480px] m-auto'>
-			<div className='min-h-[91svh] p-2 w-full'>
+		<div className='min-h-svh lg:border flex items-start flex-col max-w-[480px] m-auto'>
+			<Header />
+			<div className='flex-grow p-2 w-full'>
 				<GridPattern
 					width={20}
 					height={20}

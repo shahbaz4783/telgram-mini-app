@@ -4,6 +4,9 @@ const WalletPage = () => {
 	return (
 		<div>
 			<FeatureComingSoon feature='Wallet Connect' />
+			<FeatureComingSoon feature='Wallet Connect' />
+			<FeatureComingSoon feature='Wallet Connect' />
+			<FeatureComingSoon feature='Wallet Connect' />
 		</div>
 	);
 };
