@@ -1,5 +1,11 @@
+import FeatureComingSoon from '@/src/components/shared/coming-soon';
+
 const StatsPage = () => {
-	return <div>Stats Page</div>;
+	return (
+		<div>
+			<FeatureComingSoon feature='Stat' />
+		</div>
+	);
 };
 
 export default StatsPage;

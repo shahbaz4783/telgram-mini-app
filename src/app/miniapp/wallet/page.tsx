@@ -1,5 +1,11 @@
+import FeatureComingSoon from '@/src/components/shared/coming-soon';
+
 const WalletPage = () => {
-	return <div>Wallet Page</div>;
+	return (
+		<div>
+			<FeatureComingSoon feature='Wallet Connect' />
+		</div>
+	);
 };
 
 export default WalletPage;
