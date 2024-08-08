@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+	experimental: {
+		serverComponentsExternalPackages: ['grammy'],
+	},
 	reactStrictMode: true,
 	swcMinify: true,
 	output: 'export',
